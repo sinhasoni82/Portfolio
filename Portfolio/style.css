@@ -1,0 +1,41 @@
+h1{
+    color:blue;
+}
+h2{
+    color: green;
+    font-style: italic;
+}
+.test
+{
+    color: red;
+    font-size: large;
+}
+.grid-table{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto ;
+}
+@media (max-width:600px) {
+    .grid-table{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto  ;
+    }
+}
+.container{
+    max-width: 840px;
+    margin: auto;
+}
+.intro
+{
+    text-align: center;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.project-img{
+    justify-self: center;
+    padding: 4%;
+
+}
